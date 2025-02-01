@@ -89,7 +89,7 @@ return {
 		railVehicle = {
 			configs = {
                 {
-                    axles = { "vehicle/waggon/ICEL/allgemein/rad_jakob_lod0.msh", },
+                    axles = { },
                     fakeBogies = {
                         {
                             group = 0,
@@ -432,7 +432,7 @@ return {
 			carrier = "RAIL",
 			loadSpeed = 2,
 			multipleUnitOnly = true,
-            reversible = true,
+            reversible = false,
             groupFileName = "vehicle/waggon/ICEL/menu_icel.mdl",
         },
 	},

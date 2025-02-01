@@ -1,6 +1,8 @@
 function data()
 return {
 	vehicles = {
+        { name = "vehicle/waggon/ICEL/Bpdz1.mdl", forward = false },
+		{ name = "vehicle/waggon/ICEL/laufwerk.mdl", forward = true },
 		{ name = "vehicle/waggon/ICEL/Bpz3.mdl", forward = true },
 		{ name = "vehicle/waggon/ICEL/laufwerk.mdl", forward = true },
 		{ name = "vehicle/waggon/ICEL/Bpz5.mdl", forward = true },
