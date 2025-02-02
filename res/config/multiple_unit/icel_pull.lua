@@ -35,8 +35,8 @@ return {
 		{ name = "vehicle/waggon/ICEL/laufwerk.mdl", forward = true },
 		{ name = "vehicle/waggon/ICEL/Apzf17.mdl", forward = false },
 	},
-	name = _("ICEL_name"),
+	name = _("ICEL_pulled_name"),
 	desc = _("ICEL_desc"),
-    groupFileName = "vehicle/train/ICEL/menu_ICEL.mdl",
+    groupFileName = "vehicle/waggon/ICEL/menu_ICEL.mdl",
 }
 end
