@@ -51,7 +51,7 @@ return {
 				    },
 				    {
 						animations = {
-							open_doors_left = {
+							open_doors_right = {
 							    params = {
 								    id = "vehicle/waggon/ICEL/door_l.ani",
 							    },
@@ -63,7 +63,7 @@ return {
 							    },
 							    type = "FILE_REF",
 						    },
-						    close_doors_left = {
+						    close_doors_right = {
 							    forward = false,
 							    params = {
 								    id = "vehicle/waggon/ICEL/door_l.ani",
@@ -84,7 +84,7 @@ return {
 				    },
 				    {
 						animations = {
-							open_doors_left = {
+							open_doors_right = {
 							    params = {
 								    id = "vehicle/waggon/ICEL/step_l.ani",
 							    },
@@ -96,7 +96,7 @@ return {
 							    },
 							    type = "FILE_REF",
 						    },
-						    close_doors_left = {
+						    close_doors_right = {
 							    forward = false,
 							    params = {
 								    id = "vehicle/waggon/ICEL/step_l.ani",
@@ -117,7 +117,7 @@ return {
 				    },
 				    {
 						animations = {
-							open_doors_right = {
+							open_doors_left = {
 							    params = {
 								    id = "vehicle/waggon/ICEL/door_r.ani",
 							    },
@@ -129,7 +129,7 @@ return {
 							    },
 							    type = "FILE_REF",
 						    },
-						    close_doors_right = {
+						    close_doors_left = {
 							    forward = false,
 							    params = {
 								    id = "vehicle/waggon/ICEL/door_r.ani",
@@ -150,7 +150,7 @@ return {
 				    },
 				    {
 						animations = {
-							open_doors_right = {
+							open_doors_left = {
 							    params = {
 								    id = "vehicle/waggon/ICEL/step_r.ani",
 							    },
@@ -162,7 +162,7 @@ return {
 							    },
 							    type = "FILE_REF",
 						    },
-						    close_doors_right = {
+						    close_doors_left = {
 							    forward = false,
 							    params = {
 								    id = "vehicle/waggon/ICEL/step_r.ani",
