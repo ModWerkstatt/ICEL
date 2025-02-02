@@ -95,7 +95,7 @@ return {
 			price = -1,
 		},
 		description = {
-			name = _("ICEL_Apzf_name"),
+			name = _("ICEL_Apzf17_name"),
 		},
 		emission = {
 			idleEmission = -1,

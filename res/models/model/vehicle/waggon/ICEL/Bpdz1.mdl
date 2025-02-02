@@ -50,22 +50,22 @@ return {
 					    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.53, 0, 0, 1, },
 				    },
 				    {
-					    materials = { "vehicle/waggon/ICEL/mw/Apz/rumpf16.mtl", "vehicle/waggon/ICEL/mw/Apz/fenster.mtl", },
+					    materials = { "vehicle/waggon/ICEL/Apz/rumpf16.mtl", "vehicle/waggon/ICEL/Apz/fenster.mtl", },
                         mesh = "vehicle/waggon/ICEL/allgemein/tuer_l_lod0.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.689, 0, 0, 1, },
 				    },
 				    {
-					    materials = { "vehicle/waggon/ICEL/mw/Apz/rumpf16.mtl", },
+					    materials = { "vehicle/waggon/ICEL/Apz/rumpf16.mtl", },
                         mesh = "vehicle/waggon/ICEL/allgemein/tritt_l_lod0.msh",
 					    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.689, 0, 0, 1, },
 				    },
 				    {
-					    materials = { "vehicle/waggon/ICEL/mw/Apz/rumpf16.mtl", "vehicle/waggon/ICEL/mw/Apz/fenster.mtl", },
+					    materials = { "vehicle/waggon/ICEL/Apz/rumpf16.mtl", "vehicle/waggon/ICEL/Apz/fenster.mtl", },
                         mesh = "vehicle/waggon/ICEL/allgemein/tuer_r_lod0.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.689, 0, 0, 1, },
 				    },
 				    {
-					    materials = { "vehicle/waggon/ICEL/mw/Apz/rumpf16.mtl", },
+					    materials = { "vehicle/waggon/ICEL/Apz/rumpf16.mtl", },
                         mesh = "vehicle/waggon/ICEL/allgemein/tritt_r_lod0.msh",
 					    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.689, 0, 0, 1, },
 				    },
@@ -110,7 +110,7 @@ return {
 			price = -1,
 		},
 		description = {
-			name = _("ICEL_Bpdz_name"),
+			name = _("ICEL_Bpdz1_name"),
 		},
 		emission = {
 			idleEmission = -1,
