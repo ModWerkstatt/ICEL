@@ -20,21 +20,133 @@ return {
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				    },
 				    {
+						animations = {
+							open_doors_left = {
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_l.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    open_all_doors = {
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_l.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    close_doors_left = {
+							    forward = false,
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_l.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    close_all_doors = {
+							    forward = false,
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_l.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						},
 					    materials = { "vehicle/waggon/ICEL/Bpz892.3/rumpf3.mtl", "vehicle/waggon/ICEL/Apz/fenster.mtl", },
                         mesh = "vehicle/waggon/ICEL/allgemein/tuer_l_lod0.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.13, 0, 0, 1, },
 				    },
 				    {
+						animations = {
+							open_doors_left = {
+							    params = {
+								    id = "vehicle/waggon/ICEL/step_l.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    open_all_doors = {
+							    params = {
+								    id = "vehicle/waggon/ICEL/step_l.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    close_doors_left = {
+							    forward = false,
+							    params = {
+								    id = "vehicle/waggon/ICEL/step_l.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    close_all_doors = {
+							    forward = false,
+							    params = {
+								    id = "vehicle/waggon/ICEL/step_l.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						},
 					    materials = { "vehicle/waggon/ICEL/Bpz892.3/rumpf3.mtl", },
                         mesh = "vehicle/waggon/ICEL/allgemein/tritt_l_lod0.msh",
 					    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.13, 0, 0, 1, },
 				    },
 				    {
+						animations = {
+							open_doors_right = {
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_r.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    open_all_doors = {
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_r.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    close_doors_right = {
+							    forward = false,
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_r.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    close_all_doors = {
+							    forward = false,
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_r.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						},
 					    materials = { "vehicle/waggon/ICEL/Bpz892.3/rumpf3.mtl", "vehicle/waggon/ICEL/Apz/fenster.mtl", },
                         mesh = "vehicle/waggon/ICEL/allgemein/tuer_r_lod0.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.13, 0, 0, 1, },
 				    },
 				    {
+						animations = {
+							open_doors_right = {
+							    params = {
+								    id = "vehicle/waggon/ICEL/step_r.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    open_all_doors = {
+							    params = {
+								    id = "vehicle/waggon/ICEL/step_r.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    close_doors_right = {
+							    forward = false,
+							    params = {
+								    id = "vehicle/waggon/ICEL/step_r.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    close_all_doors = {
+							    forward = false,
+							    params = {
+								    id = "vehicle/waggon/ICEL/step_r.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						},
 					    materials = { "vehicle/waggon/ICEL/Bpz892.3/rumpf3.mtl", },
                         mesh = "vehicle/waggon/ICEL/allgemein/tritt_r_lod0.msh",
 					    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.13, 0, 0, 1, },
