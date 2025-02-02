@@ -581,7 +581,7 @@ return {
 			loadSpeed = 2,
 			multipleUnitOnly = true,
             reversible = false,
-            groupFileName = "vehicle/waggon/ICEL/menu_icel.mdl",
+            groupFileName = "vehicle/waggon/ICEL/menu_ICEL.mdl",
         },
 	},
     version = 1,
