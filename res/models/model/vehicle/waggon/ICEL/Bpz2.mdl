@@ -16,7 +16,7 @@ return {
 			    children = {
 				    {
 					    materials = { "vehicle/waggon/ICEL/Bpz892.1/rumpf2.mtl", },
-                        mesh = "vehicle/waggon/ICEL/Bpz892.3/rumpf_lod0.msh",
+                        mesh = "vehicle/waggon/ICEL/Bpz892.1/rumpf_lod0.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				    },
 				    {
@@ -168,7 +168,7 @@ return {
 				    },
 				    {
 					    materials = { "vehicle/waggon/ICEL/Apz/fenster.mtl", },
-                        mesh = "vehicle/waggon/ICEL/Bpz892.3/fenster_lod0.msh",
+                        mesh = "vehicle/waggon/ICEL/Bpz892.1/fenster_lod0.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				    },
 				    --[[{
