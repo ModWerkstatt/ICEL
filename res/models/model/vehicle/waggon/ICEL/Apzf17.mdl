@@ -28,6 +28,11 @@ return {
                             },
                             {
 	    				        materials = { "vehicle/waggon/ICEL/allgemein/drehgestell.mtl", },
+                                mesh = "vehicle/waggon/ICEL/allgemein/pzb_lod0.msh",
+    					        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.080546, 1, },
+                            },
+                            {
+	    				        materials = { "vehicle/waggon/ICEL/allgemein/drehgestell.mtl", },
                                 mesh = "vehicle/waggon/ICEL/allgemein/rad_lod0.msh",
     					        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.31907, 0, 0, 1, },
                             },
