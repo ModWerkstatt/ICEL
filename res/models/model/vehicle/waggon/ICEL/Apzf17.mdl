@@ -245,10 +245,10 @@ return {
 			configs = {
                 {
                     axles = { "vehicle/waggon/ICEL/allgemein/rad_lod0.msh", },
-                    frontForwardParts = { 8, },
+                    frontForwardParts = { 9, },
                     backForwardParts = { },
                     frontBackwardParts = { },
-                    backBackwardParts = { 9, },
+                    backBackwardParts = { 10, },
                     innerForwardParts = { },
                     innerBackwardParts = { },
                     fakeBogies = {
