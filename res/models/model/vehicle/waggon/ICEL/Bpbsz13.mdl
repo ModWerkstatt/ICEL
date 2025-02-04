@@ -20,11 +20,6 @@ return {
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				    },
 				    {
-					    materials = { "vehicle/waggon/ICEL/allgemein/rumpf_details.mtl", },
-                        mesh = "vehicle/waggon/ICEL/allgemein/faltenbalg_lod0.msh",
-					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.5, 0, 0, 1, },
-				    },
-				    {
 						animations = {
 							open_doors_right = {
 							    params = {
@@ -159,6 +154,11 @@ return {
 				    {
 					    materials = { "vehicle/waggon/ICEL/allgemein/rumpf_details.mtl", },
                         mesh = "vehicle/waggon/ICEL/allgemein/faltenbalg_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.5, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/rumpf_details.mtl", },
+                        mesh = "vehicle/waggon/ICEL/allgemein/faltenbalg_lod0.msh",
 					    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.5, 0, 0, 1, },
 				    },
 				    {
@@ -186,7 +186,229 @@ return {
 			},
 			static = false,
 			visibleFrom = 0,
-			visibleTo = 1500,
+			visibleTo = 150,
+		},
+		{
+            node = {
+			    children = {
+				    {
+					    materials = { "vehicle/waggon/ICEL/Bpbsz/rumpf13.mtl", },
+                        mesh = "vehicle/waggon/ICEL/Bpbsz/rumpf_lod1.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+						animations = {
+							open_doors_right = {
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_l.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    open_all_doors = {
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_l.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    close_doors_right = {
+							    forward = false,
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_l.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    close_all_doors = {
+							    forward = false,
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_l.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						},
+					    materials = { "vehicle/waggon/ICEL/Bpz892.3/rumpf3.mtl", "vehicle/waggon/ICEL/Apz/fenster.mtl", },
+                        mesh = "vehicle/waggon/ICEL/allgemein/tuer_l_lod1.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.13, 0, 0, 1, },
+				    },
+				    {
+						animations = {
+							open_doors_left = {
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_r.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    open_all_doors = {
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_r.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    close_doors_left = {
+							    forward = false,
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_r.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    close_all_doors = {
+							    forward = false,
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_r.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						},
+					    materials = { "vehicle/waggon/ICEL/Bpz892.3/rumpf3.mtl", "vehicle/waggon/ICEL/Apz/fenster.mtl", },
+                        mesh = "vehicle/waggon/ICEL/allgemein/tuer_r_lod1.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.13, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/rumpf_details.mtl", },
+                        mesh = "vehicle/waggon/ICEL/allgemein/faltenbalg_lod1.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.5, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/rumpf_details.mtl", },
+                        mesh = "vehicle/waggon/ICEL/allgemein/faltenbalg_lod1.msh",
+					    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.5, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/rumpf_details.mtl", },
+                        mesh = "vehicle/waggon/ICEL/allgemein/klimaanlage_lod1.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.285, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/Apz/fenster.mtl", },
+                        mesh = "vehicle/waggon/ICEL/Bpbsz/fenster_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    --[[{
+					    materials = { "vehicle/waggon/ICEL/allgemein/innen.mtl", },
+                        mesh = "vehicle/waggon/ICEL/stw/innen_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/innen.mtl", },
+                        mesh = "vehicle/waggon/ICEL/stw/innen_sitze_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },]]
+                },
+			    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 300,
+		},
+		{
+            node = {
+			    children = {
+				    {
+					    materials = { "vehicle/waggon/ICEL/Bpbsz/rumpf13.mtl", },
+                        mesh = "vehicle/waggon/ICEL/Bpbsz/rumpf_lod2.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+						animations = {
+							open_doors_right = {
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_l.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    open_all_doors = {
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_l.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    close_doors_right = {
+							    forward = false,
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_l.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    close_all_doors = {
+							    forward = false,
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_l.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						},
+					    materials = { "vehicle/waggon/ICEL/Bpz892.3/rumpf3.mtl", "vehicle/waggon/ICEL/Apz/fenster.mtl", },
+                        mesh = "vehicle/waggon/ICEL/allgemein/tuer_l_lod2.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.13, 0, 0, 1, },
+				    },
+				    {
+						animations = {
+							open_doors_left = {
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_r.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    open_all_doors = {
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_r.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    close_doors_left = {
+							    forward = false,
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_r.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						    close_all_doors = {
+							    forward = false,
+							    params = {
+								    id = "vehicle/waggon/ICEL/door_r.ani",
+							    },
+							    type = "FILE_REF",
+						    },
+						},
+					    materials = { "vehicle/waggon/ICEL/Bpz892.3/rumpf3.mtl", "vehicle/waggon/ICEL/Apz/fenster.mtl", },
+                        mesh = "vehicle/waggon/ICEL/allgemein/tuer_r_lod2.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.13, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/rumpf_details.mtl", },
+                        mesh = "vehicle/waggon/ICEL/allgemein/faltenbalg_lod2.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.5, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/rumpf_details.mtl", },
+                        mesh = "vehicle/waggon/ICEL/allgemein/faltenbalg_lod2.msh",
+					    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.5, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/rumpf_details.mtl", },
+                        mesh = "vehicle/waggon/ICEL/allgemein/klimaanlage_lod2.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.285, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/Apz/fenster.mtl", },
+                        mesh = "vehicle/waggon/ICEL/Bpbsz/fenster_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    --[[{
+					    materials = { "vehicle/waggon/ICEL/allgemein/innen.mtl", },
+                        mesh = "vehicle/waggon/ICEL/stw/innen_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/innen.mtl", },
+                        mesh = "vehicle/waggon/ICEL/stw/innen_sitze_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },]]
+                },
+			    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 300,
+			visibleTo = 1600,
 		},
 	},
 	metadata = {
@@ -211,7 +433,37 @@ return {
 		railVehicle = {
 			configs = {
                 {
-                    axles = { "vehicle/waggon/ICEL/allgemein/rad_lod0.msh", },
+                    axles = { },
+                    fakeBogies = {
+                        {
+                            group = 0,
+                            offset = 0,
+                            position = -6.8091,
+                        },
+                        {
+                            group = 0,
+                            offset = 0,
+                            position = 6.8091,
+                        },
+                    },
+            	},
+                {
+                    axles = { },
+                    fakeBogies = {
+                        {
+                            group = 0,
+                            offset = 0,
+                            position = -6.8091,
+                        },
+                        {
+                            group = 0,
+                            offset = 0,
+                            position = 6.8091,
+                        },
+                    },
+            	},
+                {
+                    axles = { },
                     fakeBogies = {
                         {
                             group = 0,
@@ -227,7 +479,7 @@ return {
             	},
 			},
             engines = { },
-			soundSet = { name = "ICE1_ICE2_Wagen", },
+			soundSet = { name = "icel", },
 			topSpeed = 63.888888889,
 			weight = 23.3,
 		},
