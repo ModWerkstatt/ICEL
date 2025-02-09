@@ -35,11 +35,14 @@ return {
 		["ICEL_Apzf17_name"] = "Coach 17, control car Apzf 896.1",
 		["ICEL_laufwerk_name"] = "Single-axis drive portal",
 
+        ["br105_name"] = "BR 105",
+        ["br105_desc"] = "The locomotive for the ICE L is also to be supplied by Talgo and bears the series designation 105. The locomotives are currently in acceptance runs and are scheduled to be used together with the ICE L from mid-2025.",
+
 	},
 	de = {
 
 		["mod_name"] = "ICE L der Deutschen Bahn",
-		["mod_desc"] = "Der ICE L ist der neueste Teil der ICE-Baureihe und unterscheidet sich grundlegend von den bisherigen ICE. Er ist ein Lok gezogener Zug anstatt eines Triebzugs. Ursprünglich sollte er mit einer Talgo-Lokomotive der Baureihe 105 verkehren, mittlerweile ist eine Vectro-Dualmode vorerst geplant. Ersetzen soll der Zug vor allem die letzten verbliebenen IC1-Züge und u.a. auch nach Westerland/Sylt fahren.\nDieser Mod beinhaltet ausserdem die Fake-Variante von allen Fahrzeugen. Diese können mit dem Ingame-Mod-Manager bei Bedarf aktiviert werden.",
+		["mod_desc"] = "Der ICE L ist der neueste Teil der ICE-Baureihe und unterscheidet sich grundlegend von den bisherigen ICE. Er ist ein Lok gezogener Zug anstatt eines Triebzugs. Ursprünglich sollte er mit einer Talgo-Lokomotive der Baureihe 105 verkehren, mittlerweile ist eine Vectron-Dualmode vorerst geplant. Ersetzen soll der Zug vor allem die letzten verbliebenen IC1-Züge und u.a. auch nach Westerland/Sylt fahren.\nDieser Mod beinhaltet ausserdem die Fake-Variante von allen Fahrzeugen. Diese können mit dem Ingame-Mod-Manager bei Bedarf aktiviert werden.",
 
         ["Fake"] = "Fake-Versionen aktivieren?",
         ["option_fake_icel_desc"] = "Schaltet die Fake-Versionen des ICE L ab (Standard) oder an.",
@@ -70,6 +73,9 @@ return {
 		["ICEL_Apz16_name"] = "Wagen 16, Apz 895.1",
 		["ICEL_Apzf17_name"] = "Wagen 17, Steuerwagen Apzf 896.1",
 		["ICEL_laufwerk_name"] = "Einachsiges Laufwerksportal",
+
+        ["br105_name"] = "BR 105",
+        ["br105_desc"] = "Die Lok für den ICE L soll ebenfalls von Talgo geliefert werden und trägt die Baureihenbezeichnung 105. Momentan befinden sich die Loks in Abnahmefahrten, der Einsatz soll ab Mitte 2025 mit dem ICE L zusammen erfolgen.",
 
 	},
 }
