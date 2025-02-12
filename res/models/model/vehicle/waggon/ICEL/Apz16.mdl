@@ -171,16 +171,16 @@ return {
                         mesh = "vehicle/waggon/ICEL/Apz/fenster_lod0.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				    },
-				    --[[{
+                    {
 					    materials = { "vehicle/waggon/ICEL/allgemein/innen.mtl", },
-                        mesh = "vehicle/waggon/ICEL/stw/innen_lod0.msh",
+                        mesh = "vehicle/waggon/ICEL/Apz/innen_lod0.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				    },
 				    {
-					    materials = { "vehicle/waggon/ICEL/allgemein/innen.mtl", },
-                        mesh = "vehicle/waggon/ICEL/stw/innen_sitze_lod0.msh",
+					    materials = { "vehicle/waggon/ICEL/allgemein/innen_moebel.mtl", },
+                        mesh = "vehicle/waggon/ICEL/Apz/innen_moebel_lod0.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-				    },]]
+				    },
                 },
 			    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			},
@@ -797,7 +797,7 @@ return {
 				{
 					{
 						{
-                            capacity = 25,
+                            capacity = 24,
 					        type = "PASSENGERS",
 						},
 					},
