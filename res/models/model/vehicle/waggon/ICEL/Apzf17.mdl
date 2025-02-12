@@ -70,7 +70,7 @@ return {
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				    },
 				    {
-					    materials = { "vehicle/waggon/ICEL/allgemein/innen.mtl", },
+					    materials = { "vehicle/waggon/ICEL/allgemein/innen_moebel.mtl", },
                         mesh = "vehicle/waggon/ICEL/Apzf/innen_fs_lod0.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				    },
@@ -80,7 +80,7 @@ return {
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				    },
 				    {
-					    materials = { "vehicle/waggon/ICEL/allgemein/innen.mtl", },
+					    materials = { "vehicle/waggon/ICEL/allgemein/innen_moebel.mtl", },
                         mesh = "vehicle/waggon/ICEL/Apzf/innen_sitze_lod0.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				    },
@@ -292,7 +292,7 @@ return {
                     animation = "driving_upright",
                     crew = true,
                     group = 1,
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.6, -0.6, 1.5, 1 },
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.6, -0.8, 1.5, 1 },
                 },
 
                 -- passengers upper
@@ -304,27 +304,12 @@ return {
                 {
                     animation = "sitting",
                     group = 1,
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.9, -0.6, 1.25, 1 },
-                },
-                {
-                    animation = "sitting",
-                    group = 1,
                     transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.8, -1.1, 1.25, 1 },
                 },
                 {
                     animation = "sitting",
                     group = 1,
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.8, -0.6, 1.25, 1 },
-                },
-                {
-                    animation = "sitting",
-                    group = 1,
                     transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.7, -1.1, 1.25, 1 },
-                },
-                {
-                    animation = "sitting",
-                    group = 1,
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.7, -0.6, 1.25, 1 },
                 },
                 {
                     animation = "sitting",
