@@ -317,21 +317,11 @@ return {
                         mesh = "vehicle/waggon/ICEL/Bpdz/fenster_lod0.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				    },
---[[				    {
-					    materials = { "vehicle/waggon/ICEL/allgemein/innen.mtl", },
-                        mesh = "vehicle/waggon/ICEL/Apzf/innen_fs_lod0.msh",
-					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-				    },
 				    {
 					    materials = { "vehicle/waggon/ICEL/allgemein/innen.mtl", },
-                        mesh = "vehicle/waggon/ICEL/Apzf/innen_lod0.msh",
+                        mesh = "vehicle/waggon/ICEL/Bpdz/innen_lod1.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				    },
-				    {
-					    materials = { "vehicle/waggon/ICEL/allgemein/innen.mtl", },
-                        mesh = "vehicle/waggon/ICEL/Apzf/innen_sitze_lod0.msh",
-					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-				    }, ]]
                 },
 			    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			},
@@ -448,21 +438,6 @@ return {
                         mesh = "vehicle/waggon/ICEL/Bpdz/fenster_lod0.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				    },
---[[				    {
-					    materials = { "vehicle/waggon/ICEL/allgemein/innen.mtl", },
-                        mesh = "vehicle/waggon/ICEL/Apzf/innen_fs_lod0.msh",
-					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-				    },
-				    {
-					    materials = { "vehicle/waggon/ICEL/allgemein/innen.mtl", },
-                        mesh = "vehicle/waggon/ICEL/Apzf/innen_lod0.msh",
-					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-				    },
-				    {
-					    materials = { "vehicle/waggon/ICEL/allgemein/innen.mtl", },
-                        mesh = "vehicle/waggon/ICEL/Apzf/innen_sitze_lod0.msh",
-					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-				    }, ]]
                 },
 			    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			},
