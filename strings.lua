@@ -35,8 +35,11 @@ return {
 		["ICEL_Apzf17_name"] = "Coach 17, control car Apzf 896.1",
 		["ICEL_laufwerk_name"] = "Single-axis drive portal",
 
-        ["br105_name"] = "Class 105",
+        ["br105_de_name"] = "Class 105 [DE Panto] (2025)",
+        ["br105_nl_name"] = "Class 105 [NL Panto] (2025)",
         ["br105_desc"] = "The locomotive for the ICE L is also to be supplied by Talgo and bears the series designation 105. The locomotives are currently in acceptance runs and are scheduled to be used together with the ICE L from mid-2025.",
+        ["de_panto"] = " Version: German pantograph raised.",
+        ["nl_panto"] = " Version: Netherlands pantograph raised.",
 
 	},
 	de = {
@@ -74,8 +77,11 @@ return {
 		["ICEL_Apzf17_name"] = "Wagen 17, Steuerwagen Apzf 896.1",
 		["ICEL_laufwerk_name"] = "Einachsiges Laufwerksportal",
 
-        ["br105_name"] = "BR 105",
+        ["br105_de_name"] = "BR 105 [DE Panto] (2025)",
+        ["br105_nl_name"] = "BR 105 [NL Panto] (2025)",
         ["br105_desc"] = "Die Lok für den ICE L soll ebenfalls von Talgo geliefert werden und trägt die Baureihenbezeichnung 105. Momentan befinden sich die Loks in Abnahmefahrten, der Einsatz soll ab Mitte 2025 mit dem ICE L zusammen erfolgen.",
+        ["de_panto"] = " Version: Deutscher Panto gehoben.",
+        ["nl_panto"] = " Version: Holländischer Panto gehoben.",
 
 	},
 }
