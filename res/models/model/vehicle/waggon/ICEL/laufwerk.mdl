@@ -106,7 +106,7 @@ return {
             engines = { },
 			soundSet = { name = "icel", },
 			topSpeed = 63.888888889,
-			weight = 2,
+			weight = 1,
 		},
         seatProvider = {
             drivingLicense = "RAIL",
