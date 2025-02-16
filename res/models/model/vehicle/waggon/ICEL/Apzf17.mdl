@@ -261,7 +261,7 @@ return {
             	},
 			},
             engines = { },
-			soundSet = { name = "icel", },
+			soundSet = { name = "icel_kopf", },
 			topSpeed = 63.888888889,
 			weight = 22.5,
 		},
