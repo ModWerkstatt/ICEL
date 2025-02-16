@@ -621,7 +621,7 @@ return {
 					type = "ELECTRIC",
 				},
 			},
-			soundSet = { name = "br105", },
+			soundSet = { name = "train_electric_modern", },
 			topSpeed = 63.8888889,
 			weight = 88,
 		},
