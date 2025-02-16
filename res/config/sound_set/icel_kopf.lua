@@ -8,7 +8,7 @@ return {
 		{ name = "vehicle/ICEL/bremse.wav", refDist = 20.0 }
 	},
 	events = {
-        horn = { names = { "vehicle/train/train_electric_modern/horn8.wav" }, refDist = 50.0 }
+        horn = { names = { "vehicle/train/train_electric_modern/horn_11.wav" }, refDist = 50.0 }
 	},
 
 	updateFn = function (input)
