@@ -104,7 +104,7 @@ return {
             	},
 			},
             engines = { },
-			soundSet = { name = "icel", },
+			soundSet = { name = "icel_portal", },
 			topSpeed = 63.888888889,
 			weight = 1,
 		},
