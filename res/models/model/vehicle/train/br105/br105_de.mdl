@@ -621,7 +621,7 @@ return {
 					type = "ELECTRIC",
 				},
 			},
-			soundSet = { name = "train_electric_modern", },
+			soundSet = { name = "train_electric_modern", horn = "vehicle/train_diesel/horn_24_Diesel.wav", },
 			topSpeed = 63.8888889,
 			weight = 88,
 		},
