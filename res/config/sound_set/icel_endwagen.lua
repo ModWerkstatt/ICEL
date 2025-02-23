@@ -23,8 +23,8 @@ return {
 				soundeffectsutil.brake(input.speed, input.brakeDecel, 0.4)
 			},
 			events = {
-				openDoors = { gain = 1.00, pitch = 1.0 },
-				closeDoors = { gain = 1.00, pitch = 1.0 }
+				openDoors = { gain = 1.10, pitch = 1.0 },
+				closeDoors = { gain = 1.10, pitch = 1.0 }
 			}
 		}
 	end
