@@ -276,7 +276,7 @@ return {
 						materials = { "vehicle/train/br105/unterbau.mtl", },
 						mesh = "vehicle/train/br105/panto_up_de_lod1.msh",
 						name = "panto_oben",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.6, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.6, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br105/unterbau.mtl", },
@@ -288,7 +288,7 @@ return {
 						materials = { "vehicle/train/br105/unterbau.mtl", },
 						mesh = "vehicle/train/br105/panto_up_de_lod1.msh",
 						name = "panto_oben",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.6, 0, 0, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.6, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br105/unterbau.mtl", },
@@ -300,31 +300,31 @@ return {
 						materials = { "vehicle/train/br105/unterbau.mtl", },
 						mesh = "vehicle/train/br105/panto_up_de_lod1.msh",
 						name = "panto_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.6, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br105/unterbau.mtl", },
+						mesh = "vehicle/train/br105/panto_down_de_lod1.msh",
+						name = "panto",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.6, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br105/unterbau.mtl", },
+						mesh = "vehicle/train/br105/panto_up_de_lod1.msh",
+						name = "panto_oben",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.6, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br105/unterbau.mtl", },
+						mesh = "vehicle/train/br105/panto_down_de_lod1.msh",
+						name = "panto",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.6, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br105/unterbau.mtl", },
-						mesh = "vehicle/train/br105/panto_down_de_lod1.msh",
-						name = "panto",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.6, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br105/unterbau.mtl", },
 						mesh = "vehicle/train/br105/panto_up_de_lod1.msh",
 						name = "panto_oben",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.6, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br105/unterbau.mtl", },
-						mesh = "vehicle/train/br105/panto_down_de_lod1.msh",
-						name = "panto",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.6, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br105/unterbau.mtl", },
-						mesh = "vehicle/train/br105/panto_up_de_lod1.msh",
-						name = "panto_oben",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.6, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.6, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br105/unterbau.mtl", },
@@ -336,7 +336,7 @@ return {
 						materials = { "vehicle/train/br105/unterbau.mtl", },
 						mesh = "vehicle/train/br105/panto_up_de_lod1.msh",
 						name = "panto_oben",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.6, 0, 0, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.6, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br105/unterbau.mtl", },
@@ -473,7 +473,7 @@ return {
 						materials = { "vehicle/train/br105/unterbau.mtl", },
 						mesh = "vehicle/train/br105/panto_up_de_lod2.msh",
 						name = "panto_oben",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.6, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.6, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br105/unterbau.mtl", },
@@ -485,7 +485,7 @@ return {
 						materials = { "vehicle/train/br105/unterbau.mtl", },
 						mesh = "vehicle/train/br105/panto_up_de_lod2.msh",
 						name = "panto_oben",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.6, 0, 0, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.6, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br105/unterbau.mtl", },
@@ -497,7 +497,7 @@ return {
 						materials = { "vehicle/train/br105/unterbau.mtl", },
 						mesh = "vehicle/train/br105/panto_up_de_lod2.msh",
 						name = "panto_oben",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.6, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.6, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br105/unterbau.mtl", },
@@ -509,7 +509,7 @@ return {
 						materials = { "vehicle/train/br105/unterbau.mtl", },
 						mesh = "vehicle/train/br105/panto_up_de_lod2.msh",
 						name = "panto_oben",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.6, 0, 0, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.6, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br105/unterbau.mtl", },
@@ -521,7 +521,7 @@ return {
 						materials = { "vehicle/train/br105/unterbau.mtl", },
 						mesh = "vehicle/train/br105/panto_up_de_lod2.msh",
 						name = "panto_oben",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.6, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.6, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br105/unterbau.mtl", },
@@ -533,7 +533,7 @@ return {
 						materials = { "vehicle/train/br105/unterbau.mtl", },
 						mesh = "vehicle/train/br105/panto_up_de_lod2.msh",
 						name = "panto_oben",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.6, 0, 0, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.6, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br105/unterbau.mtl", },
