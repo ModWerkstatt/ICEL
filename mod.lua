@@ -10,8 +10,8 @@ return {
 
         params = {
 			{
-				key = "icelfake",
-				name = _("Fake"),
+				key = "icel_fake",
+				name = _("fake_activation"),
 				values = { "No", "Yes", },
 				tooltip = _("option_fake_icel_desc"),
 				defaultIndex = 0,
@@ -34,23 +34,22 @@ return {
 
 	runFn = function (settings, modParams)
 
-	    local hidden = {
-
-		}
-
-		local modelFilter = function(fileName, data)
-			local modelName = fileName:match('/icel_([^/]*.lua)')
-			return (modelName==nil or hidden[modelName]~=true)
-		end
-
-		if modParams[getCurrentModId()] ~= nil then
-			local params = modParams[getCurrentModId()]
-			if params["icelfake"] == 0 then
-				addFileFilter("multipleUnit", modelFilter)
+	    local fakeFilter = function(fileName, data)
+			if data.metadata.transportVehicle and data.metadata.icel and data.metadata.icel.fake == true then
+				data.metadata.availability.yearFrom = 1
+				data.metadata.availability.yearTo = 1
 			end
-		else
-			addFileFilter("multipleUnit", modelFilter)
+			return data
 		end
-	end
+
+        if modParams[getCurrentModId()] ~= nil then
+			local params = modParams[getCurrentModId()]
+			if params["icel_fake"] == 0 then
+				addModifier("loadModel", fakeFilter)
+			end
+        else
+            addModifier("loadModel", fakeFilter)
+        end
+    end
 	}
 end

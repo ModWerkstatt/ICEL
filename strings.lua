@@ -5,12 +5,15 @@ return {
 		["mod_name"] = "ICE L (incl. Class 105) of Deutsche Bahn",
 		["mod_desc"] = "The ICE L is the latest addition to the ICE series and differs fundamentally from the previous ICEs. It is a locomotive-hauled train instead of a multiple unit. Originally it was to run with a class 105 Talgo locomotive, but a Vectro dual-mode is now planned for the time being. The train will primarily replace the last remaining IC1 trains and will also run to Westerland/Sylt.\nThis mod also includes the fake version of all vehicles. These can be activated with the ingame mod manager if required.",
 
-        ["Fake"] = "Activate fake versions?",
+        ["fake_activation"] = "Activate fake versions?",
         ["option_fake_icel_desc"] = "Should the fake versions be off (default) or available in the game?",
         ["ICEL_menu"] = "ICE L",
+        ["ICEL_menu_fake"] = "ICE L FAKE",
 
         ["ICEL_pulled_name"] = "ICE L [pulled] (2025)",
         ["ICEL_pushed_name"] = "ICE L [pushed] (2025)",
+        ["ICEL_pulled_name"] = "ICE L [pulled] FAKE (2025)",
+        ["ICEL_pushed_name"] = "ICE L [pushed] FAKE (2025)",
         ["ICEL_desc"] = "The ICE L is the latest addition to the ICE series and differs fundamentally from the previous ICEs. It is a locomotive-hauled train instead of a multiple unit. Originally it was to run with a class 105 Talgo locomotive, but a Vectro dual-mode is now planned for the time being. The train will primarily replace the last remaining IC1 trains and will also run to Westerland/Sylt.\nThis mod also includes the fake version of all vehicles. These can be activated with the ingame mod manager if required.",
 
         ["Show single cars?"] = "Show cars separately?",
@@ -47,12 +50,15 @@ return {
 		["mod_name"] = "ICE L (inkl. BR 105) der Deutschen Bahn",
 		["mod_desc"] = "Der ICE L ist der neueste Teil der ICE-Baureihe und unterscheidet sich grundlegend von den bisherigen ICE. Er ist ein Lok gezogener Zug anstatt eines Triebzugs. Ursprünglich sollte er mit einer Talgo-Lokomotive der Baureihe 105 verkehren, mittlerweile ist eine Vectron-Dualmode vorerst geplant. Ersetzen soll der Zug vor allem die letzten verbliebenen IC1-Züge und u.a. auch nach Westerland/Sylt fahren.\nDieser Mod beinhaltet ausserdem die Fake-Variante von allen Fahrzeugen. Diese können mit dem Ingame-Mod-Manager bei Bedarf aktiviert werden.",
 
-        ["Fake"] = "Fake-Versionen aktivieren?",
+        ["fake_activation"] = "Fake-Versionen aktivieren?",
         ["option_fake_icel_desc"] = "Schaltet die Fake-Versionen des ICE L ab (Standard) oder an.",
         ["ICEL_menu"] = "ICE L",
+        ["ICEL_menu_fake"] = "ICE L FAKE",
 
         ["ICEL_pulled_name"] = "ICE L [gezogen] (2025)",
         ["ICEL_pushed_name"] = "ICE L [geschoben] (2025)",
+        ["ICEL_pulled_name"] = "ICE L [gezogen] FAKE (2025)",
+        ["ICEL_pushed_name"] = "ICE L [geschoben] FAKE (2025)",
         ["ICEL_desc"] = "Der ICE L ist der neueste Teil der ICE-Baureihe und unterscheidet sich grundlegend von den bisherigen ICE. Er ist ein Lok gezogener Zug anstatt eines Triebzugs. Ursprünglich sollte er mit einer Talgo-Lokomotive der Baureihe 105 verkehren, mittlerweile ist eine Vectro-Dualmode vorerst geplant. Ersetzen soll der Zug vor allem die letzten verbliebenen IC1-Züge und u.a. auch nach Westerland/Sylt fahren.\nDieser Mod beinhaltet ausserdem die Fake-Variante von allen Fahrzeugen. Diese können mit dem Ingame-Mod-Manager bei Bedarf aktiviert werden.",
 
         ["Show single cars?"] = "Wagen einzeln anzeigen?",

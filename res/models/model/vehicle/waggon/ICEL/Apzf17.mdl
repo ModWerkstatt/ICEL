@@ -503,6 +503,9 @@ return {
             reversible = true,
             groupFileName = "vehicle/waggon/ICEL/menu_ICEL.mdl",
         },
+		icel = {
+			fake = false,
+		},
 	},
     version = 1,
 }

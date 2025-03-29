@@ -1,0 +1,279 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 1.64895, 1.535, 4.02494, },
+		bbMin = { -16.833, -1.535, -0.02114, },
+	},
+	collider = {
+		params = {
+
+		},
+		type = "MESH",
+	},
+	lods = {
+		{
+            node = {
+			    children = {
+				    {
+					    materials = { "vehicle/waggon/ICEL/Apzf/rumpf.mtl", },
+                        mesh = "vehicle/waggon/ICEL/Apzf/rumpf_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+			            children = {
+                            {
+	    				        materials = { "vehicle/waggon/ICEL/allgemein/drehgestell.mtl", },
+                                mesh = "vehicle/waggon/ICEL/allgemein/drehgestell_lod0.msh",
+    					        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.080546, 1, },
+                            },
+                            {
+	    				        materials = { "vehicle/waggon/ICEL/allgemein/drehgestell.mtl", },
+                                mesh = "vehicle/waggon/ICEL/allgemein/pzb_lod0.msh",
+    					        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.080546, 1, },
+                            },
+                            {
+	    				        materials = { "vehicle/waggon/ICEL/allgemein/drehgestell.mtl", },
+                                mesh = "vehicle/waggon/ICEL/allgemein/rad_lod0.msh",
+    					        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.31907, 0, 0, 1, },
+                            },
+                            {
+	    				        materials = { "vehicle/waggon/ICEL/allgemein/drehgestell.mtl", },
+                                mesh = "vehicle/waggon/ICEL/allgemein/rad_lod0.msh",
+    					        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.31907, 0, 0, 1, },
+                            },
+				        },
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.0144, 0, 0.417088, 1, },
+                    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/rumpf_details.mtl", },
+                        mesh = "vehicle/waggon/ICEL/allgemein/faltenbalg_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -16.4476, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/rumpf_details.mtl", },
+                        mesh = "vehicle/waggon/ICEL/allgemein/klimaanlage_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.63482, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/Apzf/fenster.mtl", },
+                        mesh = "vehicle/waggon/ICEL/Apzf/fenster_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/innen_moebel.mtl", },
+                        mesh = "vehicle/waggon/ICEL/Apzf/innen_fs_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/innen.mtl", },
+                        mesh = "vehicle/waggon/ICEL/Apzf/innen_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/innen_moebel.mtl", },
+                        mesh = "vehicle/waggon/ICEL/Apzf/innen_sitze_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+                },
+			    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+		},
+		{
+            node = {
+			    children = {
+				    {
+					    materials = { "vehicle/waggon/ICEL/Apzf/rumpf.mtl", },
+                        mesh = "vehicle/waggon/ICEL/Apzf/rumpf_lod1.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+			            children = {
+                            {
+	    				        materials = { "vehicle/waggon/ICEL/allgemein/drehgestell.mtl", },
+                                mesh = "vehicle/waggon/ICEL/allgemein/drehgestell_lod1.msh",
+    					        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.080546, 1, },
+                            },
+                            {
+	    				        materials = { "vehicle/waggon/ICEL/allgemein/drehgestell.mtl", },
+                                mesh = "vehicle/waggon/ICEL/allgemein/rad_lod1.msh",
+    					        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.31907, 0, 0, 1, },
+                            },
+                            {
+	    				        materials = { "vehicle/waggon/ICEL/allgemein/drehgestell.mtl", },
+                                mesh = "vehicle/waggon/ICEL/allgemein/rad_lod1.msh",
+    					        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.31907, 0, 0, 1, },
+                            },
+				        },
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.0144, 0, 0.417088, 1, },
+                    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/rumpf_details.mtl", },
+                        mesh = "vehicle/waggon/ICEL/allgemein/faltenbalg_lod1.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -16.4476, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/rumpf_details.mtl", },
+                        mesh = "vehicle/waggon/ICEL/allgemein/klimaanlage_lod1.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.63482, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/Apzf/fenster.mtl", },
+                        mesh = "vehicle/waggon/ICEL/Apzf/fenster_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/innen_moebel.mtl", },
+                        mesh = "vehicle/waggon/ICEL/Apzf/innen_fs_lod1.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/innen.mtl", },
+                        mesh = "vehicle/waggon/ICEL/Apzf/innen_lod1.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+                },
+			    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 300,
+		},
+		{
+            node = {
+			    children = {
+				    {
+					    materials = { "vehicle/waggon/ICEL/Apzf/rumpf.mtl", },
+                        mesh = "vehicle/waggon/ICEL/Apzf/rumpf_lod2.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+			            children = {
+                            {
+	    				        materials = { "vehicle/waggon/ICEL/allgemein/drehgestell.mtl", },
+                                mesh = "vehicle/waggon/ICEL/allgemein/drehgestell_lod2.msh",
+    					        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.080546, 1, },
+                            },
+                            {
+	    				        materials = { "vehicle/waggon/ICEL/allgemein/drehgestell.mtl", },
+                                mesh = "vehicle/waggon/ICEL/allgemein/rad_lod2.msh",
+    					        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.31907, 0, 0, 1, },
+                            },
+                            {
+	    				        materials = { "vehicle/waggon/ICEL/allgemein/drehgestell.mtl", },
+                                mesh = "vehicle/waggon/ICEL/allgemein/rad_lod2.msh",
+    					        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.31907, 0, 0, 1, },
+                            },
+				        },
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.0144, 0, 0.417088, 1, },
+                    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/rumpf_details.mtl", },
+                        mesh = "vehicle/waggon/ICEL/allgemein/faltenbalg_lod2.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -16.4476, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/allgemein/rumpf_details.mtl", },
+                        mesh = "vehicle/waggon/ICEL/allgemein/klimaanlage_lod2.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.63482, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICEL/Apzf/fenster.mtl", },
+                        mesh = "vehicle/waggon/ICEL/Apzf/fenster_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+                },
+			    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 300,
+			visibleTo = 1600,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 2025,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+			name = _("ICEL_Apzf17_name"),
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 29220,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+                {
+                    axles = { "vehicle/waggon/ICEL/allgemein/rad_lod0.msh", },
+                    fakeBogies = {
+                        {
+                            group = 0,
+                            offset = 0,
+                            position = -16.8905,
+                        },
+                    },
+            	},
+                {
+                    axles = { "vehicle/waggon/ICEL/allgemein/rad_lod1.msh", },
+                    fakeBogies = {
+                        {
+                            group = 0,
+                            offset = 0,
+                            position = -16.8905,
+                        },
+                    },
+            	},
+                {
+                    axles = { "vehicle/waggon/ICEL/allgemein/rad_lod2.msh", },
+                    fakeBogies = {
+                        {
+                            group = 0,
+                            offset = 0,
+                            position = -16.8905,
+                        },
+                    },
+            	},
+			},
+            engines = { },
+			soundSet = { name = "icel_kopf", },
+			topSpeed = 63.888888889,
+			weight = 22.5,
+		},
+        seatProvider = {
+            drivingLicense = "RAIL",
+            seats = { },
+		},
+		transportVehicle = {
+			compartments = {
+				{
+					{
+						{
+                            capacity = 37,
+					        type = "PASSENGERS",
+						},
+					},
+				},
+			},
+			carrier = "RAIL",
+			loadSpeed = 2,
+			multipleUnitOnly = true,
+            reversible = true,
+            groupFileName = "vehicle/waggon/ICEL/menu_ICEL.mdl",
+        },
+		icel = {
+			fake = true,
+		},
+	},
+    version = 1,
+}
+end
